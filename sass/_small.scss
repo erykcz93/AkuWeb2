@@ -1,0 +1,21 @@
+@media (min-width: 576px) {
+    .btn {
+      transition: transform 0.3s linear;
+  
+      &:hover {
+        transform: scale(0.95);
+      }
+    }
+  }
+  
+  @media (min-width: 700px) {
+    .nav {
+      .burger-btn {
+        display: none;
+      }
+  
+      &__menu-medium {
+        display: block;
+      }
+    }
+  }

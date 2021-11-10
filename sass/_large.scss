@@ -1,0 +1,17 @@
+@media (min-width: 992px) {
+  .header {
+    background-image: url("../img/people_1920.jpg");
+  }
+}
+
+@media (min-width: 1030px) {
+  .nav {
+    &__menu {
+      display: block;
+    }
+
+    &__menu-medium {
+      display: none;
+    }
+  }
+}

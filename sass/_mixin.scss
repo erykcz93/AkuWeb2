@@ -1,0 +1,15 @@
+@mixin headerBg {
+    background-image: url('../img/people_640.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@mixin burgerBtn {
+	position: absolute;
+    top: 0;
+	right: 0;
+	height: 3px;
+	content: '';
+	background-color: $white;
+	transition: width 0.3s;
+}

@@ -1,0 +1,30 @@
+@media(min-width: 768px) {
+  .btn {
+    font-size: 3.5rem;
+  }
+
+  .header {
+    &__main-title {
+      font-size: 6rem;
+    }
+
+    &__main-text {
+      font-size: 3rem;
+    }
+
+    .btn-info {
+      width: 70px;
+      height: 70px;
+    }
+
+    .fa-arrow-down {
+      font-size: 2.5rem;
+    }
+  }
+
+  .nav {
+    &__navbar-a {
+      font-size: 3rem;
+    }
+  }
+}
