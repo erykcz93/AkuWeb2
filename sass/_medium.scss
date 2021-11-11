@@ -28,4 +28,23 @@
       font-size: 3rem;
     }
   }
+
+  .about {
+    .section-title {
+      font-size: 5.5rem;
+    }
+
+
+    &__text {
+      font-size: 3rem;
+    }
+
+    &__info-list {
+      font-size: 3rem;
+    }
+
+    &__info-a  {
+      font-size: 2.8rem;
+    }
+  }
 }
