@@ -555,19 +555,20 @@ body {
   }
   .about__portrait {
     display: block;
-    width: 40%;
+    width: 50%;
     padding: 1em;
   }
   .about__portrait img {
     background-size: cover;
     background-position: center;
-    -o-object-fit: cover;
-       object-fit: cover;
     width: 100%;
+    padding: 2em;
     max-width: 450px;
+    min-width: 450px;
+    overflow: hidden;
   }
   .about__aside {
-    width: 60%;
+    width: 50%;
     height: 100%;
     padding: 1em;
   }
