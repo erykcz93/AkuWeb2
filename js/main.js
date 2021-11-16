@@ -1,5 +1,12 @@
 const headerMenuMobile = document.querySelector(".header__menu-mobile")
 const burgerBtn = document.querySelector(".burger-btn")
+const footerYear = document.querySelector(".footer__year")
+
+function handleCurrentYear() {
+  const year = new Date().getFullYear()
+  footerYear.innerText = year
+}
+handleCurrentYear()
 
 const handleNav = () => {
   headerMenuMobile.classList.toggle("menu--active")
