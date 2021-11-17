@@ -52,6 +52,6 @@ function AnimateProgress(el) {
 
 const handleButton = () => {
   scrollToTopBtn.classList.toggle("visible", window.scrollY > 300),
-    nav.classList.toggle("scroll-nav", window.scrollY > 200)
+    nav.classList.toggle("scroll-nav", window.scrollY > 150)
 }
 window.addEventListener("scroll", handleButton)
