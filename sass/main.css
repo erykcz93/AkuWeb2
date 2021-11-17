@@ -157,7 +157,7 @@
   right: 0;
   padding: 1em;
   font-size: 2rem;
-  color: #da0037;
+  color: rgba(165, 181, 167, 1);
   z-index: 1000;
 }
 
