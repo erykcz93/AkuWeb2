@@ -327,7 +327,8 @@ body {
   padding: 2em;
   -webkit-transform: translateX(102%);
           transform: translateX(102%);
-  background-color: #171717;
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
@@ -343,13 +344,16 @@ body {
 .header__menu-mobile-a {
   display: block;
   text-transform: uppercase;
-  color: #da0037;
+  color: #e4e4e4;
   padding: 1em;
   font-size: 2.2rem;
   font-weight: bold;
   width: 100%;
   text-align: center;
-  border-bottom: 1px solid #e4e4e4;
+}
+
+.header hr {
+  width: 50%;
 }
 
 .header .menu--active {
