@@ -52,6 +52,10 @@
   }
 }
 
+a {
+  text-decoration: none;
+}
+
 .btn {
   background: none;
   border: none;
@@ -157,7 +161,7 @@
   right: 0;
   padding: 1em;
   font-size: 2rem;
-  color: rgba(165, 181, 167, 1);
+  color: #a5b5a7;
   z-index: 1000;
 }
 
@@ -338,7 +342,6 @@ body {
 
 .header__menu-mobile-a {
   display: block;
-  text-decoration: none;
   text-transform: uppercase;
   color: #da0037;
   padding: 1em;
@@ -434,7 +437,6 @@ body {
 
 .nav__navbar-a {
   display: block;
-  text-decoration: none;
   text-transform: uppercase;
   color: #da0037;
   padding: 1em;
@@ -469,7 +471,6 @@ body {
 }
 
 .nav__menu-a {
-  text-decoration: none;
   text-transform: uppercase;
   color: #e4e4e4;
   padding: 1em;
@@ -511,7 +512,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  scroll-margin-top: 60px;
   padding: 6em 2em;
 }
 
@@ -544,7 +544,6 @@ body {
   margin-top: 2em;
   font-size: 1.6rem;
   text-align: center;
-  text-decoration: none;
   text-transform: capitalize;
   border: 2px solid transparent;
   background-color: #da0037;
@@ -976,7 +975,6 @@ body {
 
 .services .services-btn {
   display: inline-block;
-  text-decoration: none;
   font-size: 1.6rem;
   padding: 1em 2em;
   background-color: #da0037;
@@ -1048,10 +1046,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1064,7 +1058,6 @@ body {
 .works-btn {
   position: relative;
   display: inline-block;
-  text-decoration: none;
   padding: 1em 2em;
   margin-top: 1em;
   font-size: 1.6rem;
@@ -1089,7 +1082,6 @@ body {
 
 .works-btn-one {
   display: inline-block;
-  text-decoration: none;
   padding: 1em 2em;
   font-size: 1.6rem;
   background-color: #da0037;
@@ -1172,7 +1164,6 @@ body {
   padding: 1em 2em;
   margin-top: 2em;
   font-size: 1.6rem;
-  text-decoration: none;
   letter-spacing: 2px;
   background-color: #e4e4e4;
   border: 2px solid transparent;
@@ -1546,7 +1537,6 @@ body {
 .pricing-btn {
   display: block;
   margin-top: 2em;
-  text-decoration: none;
   padding: 1em 2em;
   background-color: #da0037;
   border: 2px solid transparent;
@@ -1679,7 +1669,6 @@ body {
 
 .blog__box-btn {
   display: inline-block;
-  text-decoration: none;
   margin-top: 0.5em;
   padding: 1em 2em;
   background-color: #da0037;
@@ -1793,7 +1782,7 @@ body {
   width: 100%;
   color: #444444;
   background: none;
-  border: 1px solid #da0037;
+  border: 1px solid #6e6e6e;
   border-radius: 8px;
 }
 
@@ -1862,7 +1851,6 @@ body {
 }
 
 .socialsBtns__logo {
-  text-decoration: none;
   text-transform: uppercase;
   font-size: 4rem;
   font-weight: bold;
@@ -1896,7 +1884,6 @@ body {
   background-color: #212529;
   border-radius: 8px;
   text-align: center;
-  text-decoration: none;
   font-size: 2rem;
   color: #e4e4e4;
   -webkit-transition: -webkit-transform 0.3s;
@@ -1930,7 +1917,6 @@ body {
 }
 
 .footer__link {
-  text-decoration: none;
   color: #da0037;
 }
 
@@ -1950,7 +1936,7 @@ body {
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 710px) {
   .nav .burger-btn {
     display: none;
   }
@@ -1976,7 +1962,7 @@ body {
 
 @media (min-width: 768px) {
   .btn {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   .header__main-title {
     font-size: 6rem;
@@ -1985,10 +1971,6 @@ body {
     font-size: 3rem;
     padding: 0 4em;
   }
-  .header .btn-info {
-    width: 70px;
-    height: 70px;
-  }
   .header .fa-arrow-down {
     font-size: 2.5rem;
   }
@@ -1996,19 +1978,19 @@ body {
     font-size: 3rem;
   }
   .about .section-title {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
   }
   .about__text {
-    font-size: 3rem;
+    font-size: 2.6rem;
   }
   .about__info-list {
-    font-size: 3rem;
+    font-size: 2.6rem;
   }
   .about__info-a {
-    font-size: 2.8rem;
+    font-size: 2.4rem;
   }
   .about__info-a {
-    font-size: 2.8rem;
+    font-size: 2.4rem;
   }
   .resume__boxes {
     -ms-grid-columns: (1fr)[2];
@@ -2286,7 +2268,6 @@ body {
   }
   .about__portrait {
     display: block;
-    width: 40%;
     width: 50%;
     padding: 1em;
   }
@@ -2296,13 +2277,13 @@ body {
     -o-object-fit: cover;
        object-fit: cover;
     width: 100%;
-    max-width: 450px;
+    max-width: 570px;
+    min-width: 570px;
   }
   .about__aside {
     width: 60%;
     width: 100%;
     padding: 2em;
-    max-width: 450px;
     min-width: 450px;
     border-radius: 8px;
   }
