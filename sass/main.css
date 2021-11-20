@@ -179,6 +179,10 @@ a {
   z-index: 1000;
 }
 
+hr {
+  width: 50%;
+}
+
 *,
 *::after,
 *::before {
@@ -202,7 +206,9 @@ body {
   height: 100vh;
   background-image: url("../img/people_640.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: 40% 60%;
+  -o-object-fit: cover;
+     object-fit: cover;
   overflow: hidden;
 }
 
@@ -350,10 +356,6 @@ body {
   font-weight: bold;
   width: 100%;
   text-align: center;
-}
-
-.header hr {
-  width: 50%;
 }
 
 .header .menu--active {
@@ -587,19 +589,19 @@ body {
 
 .about__info-list h3 {
   color: #171717;
+  font-size: 1.8rem;
 }
 
 .about__info-list span {
   color: #444444;
   width: 60%;
+  font-size: 1.8rem;
 }
 
 .about__info-list span::before {
   display: inline-block;
   content: ":";
-  padding-right: 0.8em;
-  content: ":";
-  padding-right: 0.8em;
+  padding-right: .5em;
   text-align: center;
 }
 
@@ -1051,7 +1053,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
